@@ -9,9 +9,9 @@
 module TUTKSDK {
     header "../Header.h"
     export *
-    link "libcrypto"
-    link "libcurl"
-    link "libIOTCAPIs_ALL"
-    link "libjson-c"
-    link "libssl"
+    link "../lib/libcrypto.a"
+    link "../lib/libcurl.a"
+    link "../lib/libIOTCAPIs_ALL.a"
+    link "../lib/libjson-c.a"
+    link "../lib/libssl.a"
 }
